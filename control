@@ -1,0 +1,8 @@
+Package: com.shepgoba.appuninstall
+Name: AppUninstall
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Uninstall apps from the command line
+Maintainer: shepgoba
+Author: shepgoba
+Section: System
