@@ -49,7 +49,7 @@ int main(int argc, char *argv[], char *envp[])
 
 	if (!foundApp) {
 		printf("Application \"%s\" not found\n", argv[1]);
-		return 0;
+		return 2;
 	}
 
 
@@ -58,6 +58,7 @@ int main(int argc, char *argv[], char *envp[])
 		printf("successfully uninstalled %s\n", appName.UTF8String);
 	} else {
 		printf("uninstall of %s failed\n", appName.UTF8String);
+		return 1;
 	}
 
 	return 0;
